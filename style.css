@@ -1,0 +1,35 @@
+/* Slider control */
+.carousel-item img{
+    height: 584px;
+}
+.carousel-indicators {
+    position: absolute !important;
+    right: -9%;
+    margin-bottom: 0rem;
+}
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 13px;
+    margin-left: 13px;
+}
+.carousel-indicators .custom-btn {
+    top: 0;
+    left: 0;
+    transform: translate(-105%, -95%);
+}
+.carousel-caption{
+    margin-bottom: 70px;
+}
+
+@media only screen and (max-width:992px){
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer{
+        display: none;
+    }
+    
+}
